@@ -1,0 +1,62 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+/*Button Div Styling - Start */
+#signs{
+	position: absolute;
+	top: 25%;
+	width: 50%;
+  	height: 50%;
+  	left:25%;
+  	z-index: 1;
+}
+
+#signs a {
+	display: inline-block;
+}
+/*Button Div Styling - End */
+
+/* Button Styling - Start*/
+.button {
+	line-height:120px;
+	width: 25%;
+	background: #00b200;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 25px;
+	font-size:25px;
+}
+
+.button:hover {
+	background: #006600;
+}
+
+#signUp {
+	top :40%;
+	position: absolute;
+	left:75%;
+	
+}
+
+#signIn {
+position: absolute;
+top:40%;
+}
+/* Button Styling - End*/
+
+/*Slideshow Styling - Start */
+#slideshow { 
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+}
+
+#slideshow > div { 
+    position: absolute; 
+}
+/*Slideshow Styling - End */

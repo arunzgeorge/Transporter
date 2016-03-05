@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="icon.ico">
+<title>Transporter</title>
+<script src="jquery.min.js"></script>
+<script src="Javascript.js"></script>
+<link rel="stylesheet" type ="text/css" href="SignUpStyle.css">
+</head>
+<body>
+<div id = test>
+<div id="login">
+  <h1>Log in</h1>
+  <form onsubmit="return signUp()">
+  	<input type="text" id="name" placeholder="Name" />
+    <input type="email" id="email" placeholder="Email" />
+    <input type="tel" pattern="[0-9\-]+" id="phone" placeholder="Phone" />
+    <input type="password" placeholder="Password" />
+    <input type="submit" value="Log in" />
+  </form>
+</div>
+<a href="SignIn.html" class="LoginButton" id="toggle-login">Sign In</a>
+</div>
+</body>
+</html>
